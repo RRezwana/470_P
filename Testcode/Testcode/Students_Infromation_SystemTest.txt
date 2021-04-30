@@ -1,0 +1,63 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+/**
+ *
+ * @author DOEL
+ */
+public class Students_Infromation_SystemTest {
+    
+    public Students_Infromation_SystemTest() {
+    }
+    
+    @BeforeClass
+    public static void setUpClass() {
+    }
+    
+    @AfterClass
+    public static void tearDownClass() {
+    }
+    
+    @Before
+    public void setUp() {
+    }
+    
+    @After
+    public void tearDown() {
+    }
+
+    /**
+     * Test of close method, of class Students_Infromation_System.
+     */
+    @Test
+    public void testClose() {
+        System.out.println("close");
+        Students_Infromation_System instance = new Students_Infromation_System();
+        instance.close();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of CurrentDate method, of class Students_Infromation_System.
+     */
+    @Test
+    public void testCurrentDate() {
+        System.out.println("CurrentDate");
+        Students_Infromation_System instance = new Students_Infromation_System();
+        instance.CurrentDate();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+    
+}
